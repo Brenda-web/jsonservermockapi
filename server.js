@@ -1,4 +1,4 @@
-const jsonServer = require("json-Server");
+const jsonServer = require("json-server");
 const server = jsonServer.create();
 
 const router = jsonServer.router("events.json");
